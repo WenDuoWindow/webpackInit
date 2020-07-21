@@ -1,0 +1,12 @@
+$black: #000;
+$defaultColor: #fbd86d;
+$deepColor: #db962c;
+
+[v-cloak] {
+  display: none !important;
+}
+
+// 优化ios滑动
+* {
+  touch-action: pan-y;
+}
